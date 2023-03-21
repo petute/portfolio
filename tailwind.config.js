@@ -1,3 +1,16 @@
+const theme = {
+  colors: {
+    neobrutalism: {
+      green: '#B0CDAF',
+      red: '#E47C84',
+      yellow: '#EED256',
+    }
+  },
+  boxShadow: {
+    neobrutalism: '4px 4px 0 0 black'
+  }
+  
+}
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -6,7 +19,7 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {...theme},
   },
-  plugins: [],
+  plugins: [require("@kobalte/tailwindcss"),],
 };
