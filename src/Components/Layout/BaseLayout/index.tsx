@@ -1,16 +1,16 @@
-import { JSX, Component } from 'solid-js'
+import {JSX, Component} from 'solid-js'
 
 import Navbar from '../../Molecules/Navbar'
 import Footer from '../../Molecules/Footer'
 
-const BaseLayout: Component<{children?: JSX.Element}> = (props) => {
-
-  return (<>
-    <Navbar />
+const BaseLayout: Component<{children?: JSX.Element}> = props => {
+  return (
+    <>
+      <Navbar />
       {props.children}
-    <Footer />
-  </>)
-  
+      <Footer />
+    </>
+  )
 }
 
 export default BaseLayout

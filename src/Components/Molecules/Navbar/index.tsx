@@ -1,8 +1,5 @@
-
-
 const Navbar = () => {
-  return <div className="w-full h-12 bg-green-100 shadow-neobrutalism" />
+  return <div className="h-12 w-full bg-green-100 shadow-neobrutalism" />
 }
-
 
 export default Navbar
