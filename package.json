@@ -12,14 +12,18 @@
     "autoprefixer": "^10.4.13",
     "cz-conventional-changelog": "^3.3.0",
     "postcss": "^8.4.21",
+    "prettier": "^2.8.7",
+    "prettier-plugin-tailwindcss": "^0.2.6",
     "tailwindcss": "^3.2.4",
     "typescript": "^4.9.5",
     "vite": "^4.1.1",
     "vite-plugin-solid": "^2.5.0"
   },
   "dependencies": {
+    "@fontsource/roboto-mono": "^4.5.10",
     "@kobalte/core": "^0.7.4",
     "@kobalte/tailwindcss": "^0.5.0",
+    "cva": "npm:class-variance-authority@^0.4.0",
     "solid-js": "^1.6.10"
   },
   "config": {
